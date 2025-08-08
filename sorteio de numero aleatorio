@@ -1,0 +1,15 @@
+import random
+numero_secreto = random.randint (0,10)
+numero= int (input("digite um valor"))
+
+
+
+while numero!= numero_secreto:
+    if numero > 10 or numero < 0:
+        print ('valor invalido')
+    else:
+        print ("errado, digite novamente")
+
+    numero= int (input("digite um valor de 0 a 10:"))
+
+print ('parabens aqui esta seu numero sorteado:', numero_secreto)
