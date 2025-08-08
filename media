@@ -1,0 +1,11 @@
+import math
+#média de um aluno
+
+num1 = int (input("Digite o primeiro valor"))
+num2 = int (input("digite o segundo valor:"))
+nota_total= num1+num2
+media= nota_total/2
+if nota_total<=5 :
+    print ('este aluno foi reprovado, com a seginte nota:', media)
+else:   
+    print ("este aluno passou, com a seguinte nota:", media)
