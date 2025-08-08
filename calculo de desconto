@@ -1,0 +1,16 @@
+#Sua tarefa:
+#Escreva um programa Python que calcule o preço final de um item após a aplicação de um desconto. 
+#O preço original do item é US$ 75.
+#O desconto é de 15%.
+#Seu programa deve:
+#Armazenar o preço original e o desconto em variáveis.
+#Calcular o desconto dividindo discount_rate por 100 e, em seguida, multiplicando-o por original_price.
+#Calcular o preço final subtraindo discount de original_price. 
+#Imprimir o preço final com uma mensagem clara.
+
+import math
+preço_inteiro = 75
+desconto = 15/100 # 15%
+preço_de_desconto1 = preço_inteiro * desconto
+resultado = preço inteiro - preço_de_desconto1
+print ("o seu desconto foi aplicado, de 75,00 reais, foi para:", resultado)
