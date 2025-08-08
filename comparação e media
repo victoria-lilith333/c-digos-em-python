@@ -1,0 +1,46 @@
+#Compare dois alunos e determine quem é o destaque com suas notas de provas
+nome1=(input("nome do aluno:"))
+(input("Matéria de estudo:"))
+
+#notas da materia
+
+nota1=int(input("Digite a nota:"))
+nota2= int (input("Digite a nota:"))
+nota3= int(input("Digite a nota:"))
+
+#calculo da média
+notal_final= nota1+nota2+nota3 
+Media1= notal_final//3
+if Media1<6: 
+    print ("este aluno reprovou, com a seguinte nota", Media1)
+else:
+    print ("este aluno passou, com a seguinte nota:", Media1)
+
+#-------------------------------------------------------------------------------------------------------------------------------
+
+#aluno 2
+
+nome2=(input("nome do aluno:"))
+(input("Matéria de estudo:"))
+
+#notas da materia
+
+a=int(input("Digite a nota:"))
+b= int (input("Digite a nota:"))
+c= int(input("Digite a nota:"))
+
+#calculo da média
+notal_fina2= a+b+c
+Media2= notal_fina2//3
+if Media2<6: 
+    print ("este aluno reprovou, com a seguinte nota", Media1)
+else:
+    print ("este aluno passou, com a seguinte nota:", Media1)
+
+#------------------------------------------------------------------------------------------------------------------------------------
+
+#quem é o melhor?
+
+if Media1 > Media2 : 
+    print ("o destaque é:", nome1)
+else: print ("o destaque é:", nome2)
