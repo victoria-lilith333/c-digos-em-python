@@ -1,0 +1,21 @@
+#Bem-vindo(a)! Neste diálogo, vamos aprender a escrever uma instrução condicional em Python para determinar o preço do ingresso de cinema com base na idade do cliente. As regras de preço são:
+
+#Crianças (menores de 12 anos): $8
+#Adultos (12-64 anos): $12
+#Idosos (65 anos ou mais): $10
+
+import math
+
+print ("Bem-vindos ao cinema!")
+print ("Informe a sua idade, devido as alterações de preço por idade:") 
+idade= int (input("informe a sua idade:")) 
+
+
+
+if idade>65 :
+    print ("idoso, paga $10! ", idade )
+elif idade<=11 :
+    print ("criança, paga $8!", idade )
+elif idade >11 :
+    print ("adulto, pagando $12")
+
