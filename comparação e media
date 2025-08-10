@@ -43,4 +43,7 @@ else:
 
 if Media1 > Media2 : 
     print ("o destaque é:", nome1)
-else: print ("o destaque é:", nome2)
+elif Media1 == Media2 :
+    print ("tivemos um empate!")    
+else: 
+    print ("o destaque é:", nome2)
