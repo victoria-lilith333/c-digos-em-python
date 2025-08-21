@@ -1,0 +1,12 @@
+palavra= str(input('Digite a palavra desejeda:'))
+vogal= 0
+consoante= 0
+for letra in palavra:
+ if letra in "AEIOUaeiou":
+  vogal +=1
+
+ elif letra.isalpha():
+  consoante +=1
+  
+print (f"Essa palavra tem {consoante}consoantes")
+print (f"Esta palavra tem {vogal}vogais")
