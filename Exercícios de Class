@@ -1,0 +1,82 @@
+class Dog:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+    def bark(self):
+        print(f"Woof! My name is {self.name} and I'm a {self.breed}.")
+
+# Criando uma instância da classe Dog
+my_dog = Dog("AMORA", "VIRA LATA")
+
+my_dog.bark()
+
+
+
+#-----------------------------------------------------------------------------------------------#
+#exercício 2
+#Exercício: Criando uma classe Carro
+
+#Crie uma classe chamada Carro.
+
+#Ela deve ter os atributos:
+# marca (string)
+#modelo (string)
+#ano (inteiro)
+
+#Crie um método chamado informacoes() que imprima a frase: Este carro é um [marca] [modelo] do ano [ano].
+
+class Carro:
+    def __init__(self, marca, modelo, ano):
+        self.marca= marca
+        self.modelo= modelo
+        self.ano=ano
+    def info (self):   
+        print (f"Este carro é um {self.marca} {self.modelo} do ano {self.ano}")
+
+informações= Carro ("HYANDAI", "HB20", "2024")
+informações.info()
+
+
+#-----------------------------------------------------------------------------------------------------------#
+#exercício 3
+
+#Exercício: Classe Aluno
+
+#Crie uma classe chamada Aluno. A classe deve ter os atributos:
+#nome (string)
+#idade (inteiro)
+#notas (lista de números)
+
+#Crie os métodos:
+#adicionar_nota(nota): adiciona uma nota à lista notas.
+#media(): calcula e imprime a média das notas do aluno.
+#info(): imprime:
+#Aluno [nome], idade [idade], notas: [notas]
+#Crie uma instância da classe Aluno.
+
+#Adicione pelo menos três notas usando o método adicionar_nota().
+
+#Mostre as informações do aluno e a média das notas.
+
+
+class Aluno:
+    def __init__ (self,nome,idade):
+        self.nome = nome
+        self.idade = idade
+        self.notas = []
+    
+    def adicionar_nota (self,nota):
+        self.notas.append(nota)
+
+    def aluno (self):
+        print(f"O aluno {self.nome} tirou as seguintes notas {self.notas}")
+
+
+informações_aluno = Aluno ("paulo", 20)
+
+informações_aluno.adicionar_nota (9)
+informações_aluno.adicionar_nota (8)
+informações_aluno.adicionar_nota (6)
+
+informações_aluno.aluno ()
