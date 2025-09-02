@@ -1,0 +1,14 @@
+#Peça dois números ao usuário e mostre: A soma, subtração, divisão e multiplicação
+
+a=int (input("Digite o primeiro valor"))
+b=int (input("Digite o segundo valor"))
+
+soma = a+b
+subtração = a-b
+divisão = a/b
+multiplicação = a*b
+
+print (f'o resultado da soma é: {soma}')
+print (f"o resultado da subtração é: {subtração}")
+print (f'o resultado da divisão é: {divisão}')
+print (f'o resultado da multiplicação é: {multiplicação}')
