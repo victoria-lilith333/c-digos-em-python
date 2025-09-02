@@ -1,0 +1,7 @@
+
+#Peça ao usúario que digite seu nome e idade e imprima.
+
+Nome= input('Digite o seu nome:')
+idade= int (input("Qual a sua idade?"))
+
+print (f"Seu nome é {Nome} e a sua idade é {idade}")
