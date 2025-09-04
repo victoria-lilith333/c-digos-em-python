@@ -1,0 +1,28 @@
+produtos_catalogados = [
+
+    {
+        'nota fiscal1': 'SKU123',
+        'nome': 'Widget A',
+        'preço': 19.99,
+        'quantidade': 50
+    },
+
+    { 
+        'nota fiscal2': 'SKU456',
+        'nome': 'Gadget B',
+        'preço': 34.95,
+        'quantidade': 25
+    },
+
+    { 
+        'nota fiscal3': 'SKU789',
+        'nome': 'Gizmo C',
+        'preço': 9.99,
+        'quantidade': 100
+    }
+]
+
+
+for produto in produtos_catalogados :
+    print (f'O preço do primeiro produto é: {produto['nome']} é {produto['preço']} e temos a seguinte quantidade: {produto['quantidade']}')
+    
